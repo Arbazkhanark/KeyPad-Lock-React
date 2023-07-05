@@ -1,0 +1,32 @@
+.container{
+    text-align: center;
+}
+
+.keypad{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: bisque;
+    margin: auto;
+}
+
+.keypad button{
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    margin: 13px;
+    font-size: larger;
+}
+
+.keypad button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.reset{
+    width:auto;
+}
